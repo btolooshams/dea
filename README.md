@@ -81,4 +81,4 @@ When training is done, the results are saved in `results/{experiment_name}/{rand
 ##
 ### Prediction
 
-Run `predict.py`. Make sure to specify the parameters from line 50 - 96.
+Run `predict.py`. Make sure to specify the parameters from line 42 - 89.
