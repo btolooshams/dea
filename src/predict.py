@@ -13,17 +13,9 @@ import torchvision
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle
-from sparselandtools.dictionaries import DCTDictionary
 import os
 from tqdm import tqdm
 import matplotlib.gridspec as gridspec
-
-
-from scipy.signal import correlate2d
-from sklearn.linear_model import OrthogonalMatchingPursuit
-from sklearn.linear_model import OrthogonalMatchingPursuitCV
-from sklearn.datasets import make_sparse_coded_signal
-
 
 from datetime import datetime
 from sacred import Experiment
@@ -46,6 +38,7 @@ device = torch.device("cuda:0" if use_cuda else "cpu")
 
 @ex.automain
 def predict():
+
     random_date = "2020_02_03_22_18_02"
     num_epochs = 399
 
