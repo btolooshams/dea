@@ -2,7 +2,7 @@
 
 # DEA (deep exponential auto-encoder)
 
-code for the paper
+### Paper
 
 Bahareh Tolooshams, Andrew H. Song, Simona Temereanca, and Demba Ba. [Auto-encoders for natural exponential-family dictionary learning](https://arxiv.org/abs/1907.03211)
 
