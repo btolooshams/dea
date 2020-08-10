@@ -4,7 +4,7 @@
 
 ### Paper
 
-Bahareh Tolooshams, Andrew H. Song, Simona Temereanca, and Demba Ba. [Auto-encoders for natural exponential-family dictionary learning](https://arxiv.org/abs/1907.03211)
+Bahareh Tolooshams, Andrew H. Song, Simona Temereanca, and Demba Ba. [Convolutional dictionary learning based auto-encoders for natural exponential-family distributions](https://proceedings.icml.cc/static/paper_files/icml/2020/5733-Paper.pdf)
 
 ##
 ### Trained Models
