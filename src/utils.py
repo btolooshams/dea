@@ -191,7 +191,7 @@ def conv_power_method(
         x = x / c
         y = F.conv_transpose2d(x, D, stride=stride)
         if model_distribution == "binomial":
-            y = self.sigmoid(y)
+            y = torch.sigmoid(y)
         elif model_distribution == "poisson":
             y = torch.exp(y)
         x = F.conv2d(y, D, stride=stride)
