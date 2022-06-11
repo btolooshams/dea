@@ -159,7 +159,7 @@ def get_path_loader(batch_size, image_path, shuffle=False):
                 [torchvision.transforms.Grayscale(), torchvision.transforms.ToTensor()]
             ),
         ),
-        batch_size=1,
+        batch_size=batch_size,
         shuffle=shuffle,
     )
     return loader
