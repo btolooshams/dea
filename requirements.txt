@@ -2,7 +2,7 @@ h5py==2.9.0
 numpy==1.17.2
 pymongo==3.9.0
 sacred==0.7.5
-scipy==1.2.0
+scipy==1.10.0
 sparselandtools==1.0.1
 torch==1.2.0
 torchsummary==1.5.1
